@@ -8,7 +8,7 @@ All you need to have is a picture of your friend in your gallery.
 Choose from list of cool frames to decorate your friend’s picture. 
 Wish your friend and post it to their facebook wall. 
 
-How to use this app:
+How to run this app: Run the app in Android Studio and also install lastest version of Facebook App in emulator before running
 
 Step1: In the first screen, select a picture from gallery.
 
