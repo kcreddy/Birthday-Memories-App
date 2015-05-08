@@ -1,0 +1,49 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="pack.GetImage.Frame"
+    android:background="@drawable/cloth"
+    >
+
+    <TextView
+        android:text="@string/choose_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/textframe"
+        android:textColor="@color/bright_foreground_material_light"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/list"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+         />
+
+    <Button
+        android:id="@+id/mbutton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Merge Image with Frame"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_blue_states"
+        style="@style/ButtonText"
+        />
+
+    <Button
+        android:id="@+id/btPost"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Post to Facebook"
+        android:visibility="gone"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+
+</LinearLayout>

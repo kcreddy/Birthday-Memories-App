@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Birthday Memories</string>
+
+    <string name="hello_world">Browse gallery to select an Image</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_frame">Frame</string>
+    <string name="choose_frame">Select a frame from below frames</string>
+    <string name="title_activity_share_on_facebook">ShareOnFacebook</string>
+    <string name="facebook_app_id">958769064146958</string>
+    <string name="tap">Tap the button to share something</string>
+	<string name="action_github">Github</string>
+    <string name="action_share">Share</string>
+    <string name="success">Succesfully Posted</string>
+    <string name="successfully_posted_post">Succesfully Posted</string>
+
+
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="ButtonText1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+
+</resources>
